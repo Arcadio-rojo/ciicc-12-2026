@@ -15,7 +15,9 @@ public class Task5 {
 
         if (num1 == num2 && num2 == num3) {
             System.out.println("All numbers are equal");
-        } else {
+        } 
+        
+        else {
             double largest = num1;
             if (num2 > largest) {
                 largest = num2;
